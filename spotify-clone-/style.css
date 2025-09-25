@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    Font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+.left {
+
+    width: 30vw;
+    padding: 7px 7px 0 7px;
+
+}
+
+.right {
+
+    width: 70vw
+}
+
+
+
+
+
+
+.left ul li {
+    width: px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.logo {
+    width: 20px;
+    display: flex;
+    gap: 5px;
+
+
+}
+
+.other {
+    width: 15px;
+}
+
+.logo img {
+    width: 22px;
+}
+
+.home ul {
+    padding-top: 10px;
+}
+
+
+
+.home ul li {
+    padding: 5px;
+}
+
+.library {
+    padding: 0 10px;
+    min-height: 70vh;
+    position: relative;
+
+}
+
+.footer span {
+
+    padding: 10px;
+    font-style: none;
+
+}
+
+.footer a {
+    color: grey;
+
+    font-size: 10px;
+    text-decoration: none;
+
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    padding-left: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(56, 56, 56);
+    height: 70px;
+}
+
+.header>* {
+    padding: 20px;
+}
+
+.button>* {
+    padding: 0 15px;
+
+}
+
+.signupbtn {
+    background-color: rgb(56, 56, 56);
+    border: none;
+    outline: none;
+    color: rgb(150, 145, 145);
+
+}
+
+.signupbtn:hover {
+    color: white;
+    font-size: 14px;
+}
+
+.loginbtn {
+    background-color: white;
+    border-radius: 25px;
+    padding: 8px;
+    width: 79px;
+
+    outline: none;
+    border: none;
+}
+
+.loginbtn:hover {
+    font-weight: bold;
+     font-size: 14px;
+}
+
+.spotifyplaylist>h1 {
+    padding: 6px;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 70vh;
+    overflow-y: scroll;
+}
+
+.cardcontainer .card {
+    margin: 10PX;
+    width: 200px;
+
+    background-color: rgb(59, 57, 57);
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.card>* {
+    padding-top: 5px;
+
+}
+
+.playicon circle {
+    fill: #04f524
+}
+
+.play {
+    position: absolute;
+    top: 156px;
+    right: 30px;
+}
