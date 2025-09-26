@@ -22,7 +22,10 @@
 
 .right {
 
-    width: 70vw
+    width: 70vw;
+    position: relative;
+   
+
 }
 
 
@@ -142,7 +145,7 @@
 .cardcontainer {
     display: flex;
     flex-wrap: wrap;
-    max-height: 70vh;
+    max-height: 60vh;
     overflow-y: scroll;
 }
 
@@ -174,4 +177,19 @@
     position: absolute;
     top: 156px;
     right: 30px;
+}
+
+.playback{
+    position: absolute;
+    bottom: 0;
+    background-color: #04f524;
+    width: 100%;
+    padding: 12px;
+
+}
+
+.playbutton{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
