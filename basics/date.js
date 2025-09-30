@@ -1,0 +1,8 @@
+let date = new Date(2022,0,25)
+// console.log(date.toString())
+// console.log(date.toDateString())
+// console.log(date.toISOString())
+// console.log(date.toLocaleDateString())
+// console.log(typeof(date.toISOString()))
+// console.log(typeof(date.toJSON()))
+console.log(Date.now())
