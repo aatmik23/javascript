@@ -11,5 +11,16 @@
 <script>
     const div = document.createElement('div')
     console.log(div)
+    div.classname="main"
+    div.id="123"
+    div.setAttribute('title','generated title') //dontbring direct set the value
+    div.style.backgroundColor="green"
+    div.style.padding="12px"
+    // div.innerHTML="chai or code" //overwrite value then set 
+    const child1 = document.createTextNode("chai or code") //document not div
+    div.appendChild(child1)
+    //this code will not show in screen cause it is in the memeory not html
+
+    document.body.appendChild(div)
 </script>
 </html>
