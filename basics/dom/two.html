@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom | deletion </title>
+</head>
+<body style="background-color: black; color: white;">
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+    
+</body>
+  <script>
+    function add(name){
+        let li = document.createElement('li')
+         li.innerHTML= name //it treverse all node
+         document.querySelector('.language').appendChild(li) //li not string
+}
+add("flipkart")
+    function addopt(name){
+        let li = document.createElement('li')
+        li.appendChild(document.createTextNode(name))
+        document.querySelector('.language').appendChild(li)
+    }
+ addopt("ruby")   
+   
+ //edit value
+ let scval = document.querySelector('li:nth-child(2)')
+ const newli = document.createElement('li')
+ newli.textContent = "mojo"
+ scval.replaceWith(newli)
+
+ let firstlang = document.querySelector('li:first-child')
+ firstlang.outerHTML = '<li> helloworld </li>'
+
+ //remove 
+ let lang = document.querySelector('li:last-child')
+ lang.remove()
+  </script>
+</html>

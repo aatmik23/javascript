@@ -1,0 +1,21 @@
+let button = document.querySelectorAll('.button')
+let body = document.body
+button.forEach((button)=>{
+  console.log(button)
+  button.addEventListener('click',(e)=>{  //event listner (even,fucntion)
+    console.log(e)
+    console.log(e.target)
+    if (e.target.id === "grey"){
+       body.style.backgroundColor = e.target.id  //event.target target element
+    }
+    if (e.target.id === "white"){
+      body.style.backgroundColor = e.target.id
+   }
+   if (e.target.id === "yellow"){
+    body.style.backgroundColor = e.target.id
+ }
+ if (e.target.id === "blue"){
+  body.style.backgroundColor = e.target.id
+}
+  })
+})
