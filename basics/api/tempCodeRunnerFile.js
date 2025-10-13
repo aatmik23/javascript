@@ -1,0 +1,1 @@
+newobj.heyhitesh() //show error 
